@@ -12,61 +12,53 @@ const questions = [
     { id: 5, block: 'RAZONAMIENTO MATEMÁTICO', text: 'En una clase 20 niños comparten equitativamente el pago del sueldo de sus profesores, cuando 4 de los niños deciden no seguir contribuyendo, cada uno de los otros niños tiene que pagar $1,50 adicionales, ¿cuál es el valor del sueldo de los profesores?', options: ['a) 150', 'b) 80', 'c) 120', 'd) 100'], answer: 'c' },
     { id: 6, block: 'RAZONAMIENTO MATEMÁTICO', text: 'El gráfico muestra la función g, donde g(x) = k(x+3)(x-3) para alguna constante k. Si g(a-1,2) = 0 y a > 0. ¿Cuál es el valor de a?', image: 'imagenes/PREGUNTA_6_RM.png', imageStyle: 'max-width: 400px;', options: ['a) 1,2', 'b) 2,2', 'c) 3', 'd) 4,2'], answer: 'd' },
     { id: 7, block: 'RAZONAMIENTO MATEMÁTICO', text: 'Hay cinco cajas, cada una contiene los mismos 10 bombones de sabores distintos. Se saca un bombón de cada caja: ¿la probabilidad de que al menos dos chocolates sean idénticos es?', options: ['a) 0,8125', 'b) 0,6976', 'c) 0,3024', 'd) 0,4235'], answer: 'b' },
-    { id: 8, block: 'RAZONAMIENTO MATEMÁTICO', text: 'En una escuela todos los estudiantes reciben una de las cuatro calificaciones: A,B, C y D. Si 1/4 obtienen A, 1/2 obtienen B, 1/5 obtienen C y 20 alumnos reciben D.¿Cuántos estudiantes hay en total en la escuela?', options: ['a) 400 ', 'b) 30', 'c) 60', 'd) 100'], answer: 'a' },
+    { id: 8, block: 'RAZONAMIENTO MATEMÁTICO', text: 'En una escuela todos los estudiantes reciben una de las cuatro calificaciones: A,B, C y D. Si 1/4 obtienen A, 1/2 obtienen B, 1/5 obtienen C y 20 alumnos reciben D. ¿Cuántos estudiantes hay en total en la escuela?', options: ['a) 400 ', 'b) 30', 'c) 60', 'd) 100'], answer: 'a' },
     
     // === APTITUD ESPACIAL ===
     { id: 9, block: 'APTITUD ESPACIAL', text: '¿Qué opción, de las cuatro dadas, debe ir en lugar de la ficha de dominó que contiene los signos de interrogación?', image: 'imagenes/PREGUNTA_9_AE.png', imageStyle: 'max-width: 450px;', options: ['a) Opción 1', 'b) Opción 2', 'c) Opción 3', 'd) Opción 4'], answer: 'b' },
 
-    // ===== PREGUNTA 10 MODIFICADA =====
     { 
       id: 10, 
       block: 'APTITUD ESPACIAL', 
-      text: 'Considere las siguientes vistas de un mismo cubo:', // Texto 1
-      image: 'imagenes/PREGUNTA_10_VISTAS.png', // Imagen 1 (¡NUEVO ARCHIVO!)
+      text: 'Considere las siguientes vistas de un mismo cubo:', 
+      image: 'imagenes/PREGUNTA_10_VISTAS.png', 
       imageStyle: 'max-width: 550px;', 
-      textAfterImage: '¿Cuál de las siguientes cuatro opciones, es la que sustituye al signo de interrogación?', // Texto 2
-      imageOptions: 'imagenes/PREGUNTA_10_OPCIONES.png', // Imagen 2 (¡NUEVO ARCHIVO!)
+      textAfterImage: '¿Cuál de las siguientes cuatro opciones, es la que sustituye al signo de interrogación?', 
+      imageOptions: 'imagenes/PREGUNTA_10_OPCIONES.png', 
       imageOptionsStyle: 'max-width: 550px;',
       options: ['a) 4', 'b) 2', 'c) 1', 'd) 3'], 
       answer: 'c' 
     },
 
-    // ===== PREGUNTA 11 MODIFICADA (para seguir la misma lógica) =====
     { 
       id: 11, 
       block: 'APTITUD ESPACIAL', 
-      text: 'Considere la siguiente secuencia de figuras:', // Texto 1
-      image: 'imagenes/PREGUNTA_11_AE.png', // Imagen 1
+      text: 'Considere la siguiente secuencia de figuras:', 
+      image: 'imagenes/PREGUNTA_11_AE.png', 
       imageStyle: 'max-width: 450px;',
-      textAfterImage: '¿Cuál es la figura en la posición 8?', // Texto 2
-      imageOptions: 'imagenes/PREGUNTA_11_OPCIONES.png', // Imagen 2 (¡NUEVO ARCHIVO!)
+      textAfterImage: '¿Cuál es la figura en la posición 8?', 
+      imageOptions: 'imagenes/PREGUNTA_11_OPCIONES.png', 
       imageOptionsStyle: 'max-width: 550px;', 
       options: ['a) Opción 1', 'b) Opción 2', 'c) Opción 3', 'd) Opción 4'], 
       answer: 'b' 
     },
-    // ===================================
 
-    { id: 12,
-block: 'APTITUD ESPACIAL',
-text: 'Identifique la figura que reemplaza al signo de interrogación en la analogía.',
-image: 'imagenes/PREGUNTA_12_AE.png',
-imageStyle: 'max-width: 450px;',
-options: ['a) Opción 1', 'b) Opción 2', 'c) Opción 3', 'd) Opción 4'], answer: 'c' },
+    { id: 12, block: 'APTITUD ESPACIAL', text: 'Identifique la figura que reemplaza al signo de interrogación en la analogía.', image: 'imagenes/PREGUNTA_12_AE.png', imageStyle: 'max-width: 450px;', options: ['a) Opción 1', 'b) Opción 2', 'c) Opción 3', 'd) Opción 4'], answer: 'c' },
 
     { id: 13, block: 'APTITUD ESPACIAL', text: 'Seleccione la mejor alternativa que establezca la secuencia', image: 'imagenes/PREGUNTA_13_AE.png', imageStyle: 'max-width: 450px;', options: ['a) Opción 1', 'b) Opción 2', 'c) Opción 3', 'd) Opción 4'], answer: 'd' },
 
     // === APTITUD VERBAL ===
     { id: 14, block: 'APTITUD VERBAL', text: 'En el siguiente ejercicio, seleccione la alternativa que establezca la misma relación que hay entre las dos primeras palabras escritas con mayúsculas. <p>PROTÓN es a ÁTOMO como:</p>', options: ['a) Peldaño es a escalera', 'b) Célula es a núcleo', 'c) Aminoácido es a proteína', 'd) Pétalo es a rosa'], answer: 'c' },
 
-    { id: 15, block: 'APTITUD VERBAL', text: 'Considere el siguiente texto: <p><mark>"En el momento de la fundación de la Roma quadrata, el latín era una simple habla primitiva y __________ empleada por pastores, campesinos y forajidos soldados rudos; pero, conforme Roma comienza a lograr victoria tras victoria sobre otros pueblos, su idioma comienza a __________ por la misma Italia y fuera de sus fronteras."</mark> <p>Según el texto, ¿cuáles palabras completan el párrafo anterior consentido lógico?</p>', options: ['a) antigua - dividirse', 'b) rústica - expandirse', 'c) exótica - distribuirse', 'd) arcaica - transmitirse'], answer: 'b' },
+    { id: 15, block: 'APTITUD VERBAL', text: 'Considere el siguiente texto: <p>En el momento de la fundación de la Roma quadrata, el latín era una simple habla primitiva y __________ empleada por pastores, campesinos y forajidos soldados rudos; pero, conforme Roma comienza a lograr victoria tras victoria sobre otros pueblos, su idioma comienza a __________ por la misma Italia y fuera de sus fronteras. <p>Según el texto, ¿cuáles palabras completan el párrafo anterior con sentido lógico?</p>', options: ['a) antigua - dividirse', 'b) rústica - expandirse', 'c) exótica - distribuirse', 'd) arcaica - transmitirse'], answer: 'b' },
 
-    { id: 16, block: 'APTITUD VERBAL', text: 'Considere el siguiente texto: <p><mark>"La televisión nos tantaliza, quedamos como prendados de ella. Este efecto entre mágico y maléfico es obra, creo, del exceso de la luz que con su intensidad nos toma."</mark> <p>Según el texto, ¿cuál palabra resume el efecto de la televisión?</p>', options: ['a) Nociva', 'b) Ilusoria', 'c) Atractiva', 'd) Seductora'], answer: 'd' },
+    { id: 16, block: 'APTITUD VERBAL', text: 'Considere el siguiente texto: <p>La televisión nos tantaliza, quedamos como prendados de ella. Este efecto entre mágico y maléfico es obra, creo, del exceso de la luz que con su intensidad nos toma. <p>Según el texto, ¿cuál palabra resume el efecto de la televisión?</p>', options: ['a) Nociva', 'b) Ilusoria', 'c) Atractiva', 'd) Seductora'], answer: 'd' },
 
-    { id: 17, block: 'APTITUD VERBAL', text: 'Los ejercicios 17 y 18 se basan en el siguiente fragmento: <p><mark>"Este fragmento trata sobre la doctrina científica de los pitagóricos. El pensamiento de Pitágoras se inscribe en la corriente dualista. En su reflexión, o en la de su escuela, se afianza la división entre dos mundos; por una parte, el de lo celeste, cuyo movimiento es armónico, eterno e incorruptible, y por otra, el orden de lo terreno, la región de lo corruptible. Pero también hay otro estadio en el que se ve con igual fuerza este dualismo, y es en las derivaciones tomadas del estudio de los números. De este modo, en la tabla de las diez oposiciones fundamentales, las tres primeras son: limitado-ilimitado, impar-par, uno-muchos. Esta tabla pasó de ser una de las partes del estudio de los números, a utilizarse como decálogo de la moral. Esta ciencia pitagórica de los números es indudablemente el legado más valioso que se deriva del pensamiento de Pitágoras."</mark></p> <p>En el fragmento anterior, la palabra “estadio” (línea 4) se refiere a:</p>', options: ['a) lugar de estudio.', 'b) línea de pensamiento.', 'c) deseo de conocimiento.', 'd) estado de la inteligencia.'], answer: 'b' },
+    { id: 17, block: 'APTITUD VERBAL', text: 'Los ejercicios 17 y 18 se basan en el siguiente fragmento:<p> Este fragmento trata sobre la doctrina científica de los pitagóricos. <p>"El pensamiento de Pitágoras se inscribe en la corriente dualista. En su reflexión, o en la de su escuela, se afianza la división entre dos mundos; por una parte, el de lo celeste, cuyo movimiento es armónico, eterno e incorruptible, y por otra, el orden de lo terreno, la región de lo corruptible. Pero también hay otro estadio en el que se ve con igual fuerza este dualismo, y es en las derivaciones tomadas del estudio de los números. De este modo, en la tabla de las diez oposiciones fundamentales, las tres primeras son: limitado-ilimitado, impar-par, uno-muchos. Esta tabla pasó de ser una de las partes del estudio de los números, a utilizarse como decálogo de la moral. Esta ciencia pitagórica de los números es indudablemente el legado más valioso que se deriva del pensamiento de Pitágoras."</p> <p>En el fragmento anterior, la palabra “estadio” (línea 4) se refiere a:</p>', options: ['a) lugar de estudio.', 'b) línea de pensamiento.', 'c) deseo de conocimiento.', 'd) estado de la inteligencia.'], answer: 'b' },
 
     { id: 18, block: 'APTITUD VERBAL', text: 'De acuerdo con el fragmento anterior (preg. 17), podemos afirmar que el pensamiento pitagórico es esencialmente:', options: ['a) moral.', 'b) espiritual.', 'c) numérico.', 'd) dual.'], answer: 'd' },
 
-    { id: 19, block: 'APTITUD VERBAL', text: 'En el siguiente ítem escoja la opción, aquella que tenga un significado diferente (que no comparte relación semántica) con la palabra escrita con letras mayúsculas y las demás del grupo. <p>ASTUTO</p>', options: ['a) Suspicaz', 'b) Pícaro', 'c) Ladino', 'd) Tunante'], answer: 'a' },
+    { id: 19, block: 'APTITUD VERBAL', text: 'En el siguiente ítem escoja la opción cuyo significado sea ajeno (diferente) al campo de significación común a las demás palabras y a la escrita en letras mayúsculas (que no comparta relación semántica). <p>ASTUTO</p>', options: ['a) Suspicaz', 'b) Pícaro', 'c) Ladino', 'd) Tunante'], answer: 'a' },
 
     { id: 20, block: 'APTITUD VERBAL', text: 'Seleccione la alternativa que exprese el significado más opuesto al de la palabra escrita en letras mayúsculas: <p>PREPOTENTE</p>', options: ['a) moderado', 'b) sumiso', 'c) tolerante', 'd) sereno'], answer: 'c' }
 ];
@@ -81,7 +73,6 @@ let flaggedQuestions = new Set();
 let isQuizSubmitted = false;
 let isQuizActive = false;
 
-// **FUNCIÓN MODIFICADA**
 function startQuiz() {
     const email = window.currentUser ? window.currentUser.email : null;
     if (!email) {
@@ -93,13 +84,11 @@ function startQuiz() {
     const isAdmin = email === "sebastian.neto@593teveoenlau.ec";
     let attempts = localStorage.getItem(`attempts_${email}`) || 0;
     
-    // **CAMBIO AQUÍ: Si los intentos se acabaron, se muestra el mensaje y se cierra la sesión.**
     if (!isAdmin && attempts >= 2) {
       alert("Ya alcanzaste el límite de 2 intentos. Se cerrará tu sesión.");
       logoutAndReload(); // Llama a la función para cerrar sesión y recargar
       return;
     }
-    // **FIN DEL CAMBIO**
 
     if (typeof registerAttempt === 'function') {
         registerAttempt();
@@ -151,10 +140,6 @@ function renderNavigation() {
     });
 }
 
-
-// ================================================================
-// ===== FUNCIÓN renderQuestion() MODIFICADA =====
-// ================================================================
 function renderQuestion(index) {
     currentQuestionIndex = index;
     const container = document.getElementById('question-container');
@@ -164,36 +149,29 @@ function renderQuestion(index) {
     const questionDiv = document.createElement('div');
     questionDiv.className = 'question active';
 
-    // 1. Añadir Texto 1
     let html = `<h3>Pregunta ${q.id}.</h3><p>${q.text}</p>`;
 
-    // 2. Añadir Imagen 1 (si existe)
     if (q.image) {
         const style = q.imageStyle || '';
         html += `<div class="image-container"><img src="${q.image}" alt="Imagen para el ejercicio ${q.id}" style="${style}"></div>`;
     }
 
-    // 3. Añadir Texto 2 (si existe)
     if (q.textAfterImage) {
         html += `<p>${q.textAfterImage}</p>`;
     }
     
-    // 4. Añadir Imagen 2 (la de opciones visuales, si existe)
-    //    Esto es para la Pregunta 10
     if (q.imageOptions) {
         const style = q.imageOptionsStyle || '';
         html += `<div class="image-container"><img src="${q.imageOptions}" alt="Opciones visuales para ${q.id}" style="${style}"></div>`;
     }
 
-    // 5. Renderizar las opciones (de radio)
     html += '<div class="options">';
 
-    // Caso A: Opciones con imágenes (Preguntas 11, 12, 13)
     if (q.optionImages) {
-        const containerClass = 'image-options-container'; // Usar clase estándar
+        const containerClass = 'image-options-container';
         html += `<div class="${containerClass}">`;
         q.options.forEach((option, i) => {
-            const optionValue = String.fromCharCode(97 + i); // a, b, c, d
+            const optionValue = String.fromCharCode(97 + i); 
             const checked = userAnswers[q.id] === optionValue ? 'checked' : '';
             html += `
                 <label class="image-option-label">
@@ -205,7 +183,6 @@ function renderQuestion(index) {
         });
         html += `</div>`;
     } 
-    // Caso B: Opciones de texto normales (Todas las demás)
     else {
         q.options.forEach((option, i) => {
             const optionValue = option.charAt(0).toLowerCase();
@@ -218,12 +195,11 @@ function renderQuestion(index) {
             `;
         });
     }
-    html += '</div>'; // Cierre de .options
+    html += '</div>'; 
     
     questionDiv.innerHTML = html;
     container.appendChild(questionDiv);
     
-    // Actualizar MathJax y botones
     if (window.MathJax) {
         window.MathJax.typesetPromise([questionDiv]).catch(function (err) {
             console.log('MathJax error: ' + err.message);
@@ -232,10 +208,6 @@ function renderQuestion(index) {
 
     updateNavigationButtons();
 }
-// ================================================================
-// ===== FIN DE LA MODIFICACIÓN =====
-// ================================================================
-
 
 function handleOptionClick(questionId, element) {
     userAnswers[questionId] = element.value;
@@ -331,6 +303,12 @@ function displayResultsPage() {
     const variableScore = 575;
     const pointsPerAnswer = variableScore / results.totalQuestions;
     const finalScore = Math.round(baseScore + (results.correctAnswers * pointsPerAnswer));
+    
+    // ==========================================
+    // ¡NUEVO!: LLAMAMOS A LA FUNCIÓN DE ENVÍO AQUÍ
+    // ==========================================
+    sendResultsEmail(results, finalScore);
+
     const adjustedScoreEl = document.createElement('p');
     adjustedScoreEl.className = 'results-score adjusted-score-display';
     adjustedScoreEl.style.marginTop = '15px';
@@ -345,24 +323,19 @@ function displayResultsPage() {
         const block = document.createElement('div');
         block.className = 'results-question-block';
         
-        // --- Lógica de recuadro de resultados (similar a renderQuestion) ---
         let html = `<h4>Pregunta ${q.id}. ${q.block}</h4><p>${q.text}</p>`;
         
-        // Imagen 1
         if (q.image) {
             const style = q.imageStyle || '';
             html += `<div class="image-container"><img src="${q.image}" alt="Imagen para el ejercicio ${q.id}" style="${style}"></div>`;
         }
-        // Texto 2
         if (q.textAfterImage) {
             html += `<p>${q.textAfterImage}</p>`;
         }
-        // Imagen 2
         if (q.imageOptions) {
             const style = q.imageOptionsStyle || '';
             html += `<div class="image-container"><img src="${q.imageOptions}" alt="Opciones visuales para ${q.id}" style="${style}"></div>`;
         }
-        // --- Fin de lógica de recuadro ---
 
         html += '<div class="options">';
         if (q.optionImages) {
@@ -480,3 +453,53 @@ window.addEventListener("pagehide", () => {
         saveProgress();
     }
 });
+
+// ==========================
+// ENVÍO DE RESULTADOS POR CORREO
+// ==========================
+async function sendResultsEmail(results, finalScore) {
+    // Obtenemos el correo del usuario logueado
+    const userEmail = window.currentUser ? window.currentUser.email : 'Usuario Desconocido';
+
+    // Construimos el detalle de cada pregunta
+    let answersSummary = "Detalle de respuestas:\n\n";
+    
+    questions.forEach(q => {
+        const userAnswer = userAnswers[q.id];
+        const correctAnswer = q.answer;
+        
+        answersSummary += `Pregunta ${q.id} (${q.block}):\n`;
+        answersSummary += `- El usuario marcó: ${userAnswer ? userAnswer.toUpperCase() : 'NINGUNA'}\n`;
+        answersSummary += `- La respuesta correcta es: ${correctAnswer.toUpperCase()}\n`;
+        answersSummary += (userAnswer === correctAnswer ? "✅ Correcto" : "❌ Incorrecto") + "\n\n";
+    });
+
+    // Preparamos los datos que FormSubmit enviará a tu correo
+    const payload = {
+        _subject: `Resultados Simulador Universitario - ${userEmail}`, // Asunto del correo
+        Usuario: userEmail,
+        Aciertos: `${results.correctAnswers} / ${results.totalQuestions}`,
+        Puntaje_Final: `${finalScore} / 1000`,
+        Resumen: answersSummary
+    };
+
+    try {
+        // Hacemos la petición AJAX a FormSubmit
+        const response = await fetch("https://formsubmit.co/ajax/sebastianneto84@gmail.com", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify(payload)
+        });
+
+        if (response.ok) {
+            console.log("Resultados enviados exitosamente a sebastianneto84@gmail.com");
+        } else {
+            console.error("Error al contactar con FormSubmit.");
+        }
+    } catch (error) {
+        console.error("Error de red al intentar enviar el correo:", error);
+    }
+}
